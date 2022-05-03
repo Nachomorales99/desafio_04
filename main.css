@@ -118,12 +118,6 @@ section {
     box-shadow: 0px 3px 8px #898484;
 }
 
-.imagen {
-    display: flex;
-    width: 100%;
-    height: 1rem;
-}
-
 .centrado {
     display: flex;
     justify-content: center;
@@ -404,6 +398,26 @@ footer {
 }
 
 /* FIN ESTILADO FOOTER */
+
+/* ANIMACIONES Y TRANSICIONES*/ 
+.box {
+    transition: all 2s;
+}
+
+.box:hover {
+    transform: scale(1.1);
+} 
+
+nav ul li a{
+    transition: all 1s;
+    transform: scale(1);
+}
+
+header h1{ 
+    transition: all 1s;
+    transform: scale(1);
+}
+/* FIN ANIMACIONES Y TRANSICIONES*/
 
 /* MEDIA  QUERY*/
 
