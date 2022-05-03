@@ -234,8 +234,8 @@ p {
     width: 100%;
     padding: .7em;
     border: none;
-    background: none;
-    border-bottom: 1px solid #597e8d;
+    background: white;
+    border-bottom: 1px solid #5b6468;
 }
 
 .con-form form label {
@@ -245,7 +245,7 @@ p {
 
 .con-form form select,
 .con-form form button {
-    background: #597e8d;
+    background: #5b6468;
     border: 0;
     text-transform: uppercase;
     padding: 1em;
@@ -255,8 +255,8 @@ p {
 .con-form form button:focus,
 .con-form form select:hover,
 .con-form form select:focus {
-    background: #054665;
-    color: #fff;
+    background: #3b4042;
+    color: white;
     transition: background-color 1s ease-out;
     outline: 0;
 }
