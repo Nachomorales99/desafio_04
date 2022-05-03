@@ -7,14 +7,14 @@
 }
 
 :root{
-    --primary: #42b983;
+    --primary: black;
     --secundary: #2e4469;
     --background: #35495e;
     --black-text: rgb(61,61,61);
     --white-text:#ffffff;
-    --blue-gradient:linear-gradient(90deg, #42b983, #35495e); 
+    --blue-gradient:linear-gradient(90deg, gray, #35495e); 
     --button-hover:#5b79a2;
-    --text-shadow: .2rem 22rem .2rem #0d0d0e;  
+    --text-shadow: .2rem 22rem .2rem #444447;  
 }
 
 body {
@@ -86,12 +86,12 @@ nav ul li a:hover{
 /* ESTILADO PORTADA */
 
 #portada {
+    display: flex;
     background-image: url('public/DSC_0439.jpg');
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -100,6 +100,10 @@ nav ul li a:hover{
 /* FIN ESTILADO PORTADA */
 
 /*REMERAS*/
+
+section{ 
+    margin-block-end: 3rem;
+}
 
 .contenedor {
     margin-top: 5%;
@@ -220,6 +224,10 @@ p {
 
 /* ESTILADO FORMULARIO */
 
+#contactanos{
+    margin-block-end: 3rem;
+}
+
 .con-form form input,
 .con-form form label,
 .con-form form select .con-form form button {
@@ -275,49 +283,21 @@ p {
 
 /* FIN ESTILADO FORMULARIO */
 
-/* ESTILADO CONTACTO*/
+/* ESTILADO CONTACTO*/ 
 
-.contacto .igs {
-    align-items: left;
-    padding: 20px;
-    display: list-item;
-    justify-content: left;
-    list-style: none;
-}
-
-.ig-black a {
-    color: black;
-    list-style: none;
-    text-decoration: none;
-    font-size: 1.5em;
-}
-
-.ig-tomi a {
-    color: black;
-    list-style: none;
-    text-decoration: none;
-    font-size: 1.5em;
-
-}
-
-.ig-nacho a {
-    color: black;
-    list-style: none;
-    text-decoration: none;
-    font-size: 1.5em;
-}
-
-.ig-black a:hover {
+#nacho h2:hover {
     color: #5b5f63;
     z-index: 1;
+} 
+
+h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.ig-nacho a:hover {
-    color: #5b5f63;
-    z-index: 1;
-}
-
-.ig-tomi a:hover {
+#tomi h2:hover {
     color: #5b5f63;
     z-index: 1;
 }
@@ -327,15 +307,19 @@ p {
 /* NOSOTROS */
 
 #nosotros {
+    display: flex;
     background-image: url('public/DSC_0502.jpg');
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+} 
+
+#quienes_somos{
+    margin-block-end: 5rem;
 }
 
 /* FIN NOSOTROS */
@@ -469,4 +453,4 @@ footer {
     }
 
 
-}
+} 
