@@ -190,7 +190,7 @@ a {
 
 /* EQUIPO */
 
-#equipo {
+#equipo { 
     margin: 70px;
 }
 
@@ -309,4 +309,26 @@ footer ul li a {
         margin-left: 20%;
     }
 
-}
+}    
+
+@media (max-width:600px) {
+
+    .team img {
+        width: 200px;
+        height: 275px;
+        margin-bottom: 20px;
+    } 
+
+    #nosotros { 
+        justify-content: left;
+        width: 100%;
+        margin: auto;
+        padding-top: 1rem;
+    } 
+
+    #equipo { 
+        justify-content: left;
+        width: 100%;
+        margin: auto;
+    }
+}   
