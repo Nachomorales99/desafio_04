@@ -30,7 +30,6 @@ body {
     transition: 0.75s;
     color: gray;
     font-size: 20px;
-    transform: scale(1);
 }
 
 a {
@@ -171,7 +170,14 @@ a {
 #form{
     margin-top: 50px;
     margin-bottom: 50px;
-} 
+    background-color: #0e141a;
+    color: white; 
+}  
+
+#form .form-select option{
+    background-color:#050e18;
+    color: white;
+}
 
 .btn{
 
