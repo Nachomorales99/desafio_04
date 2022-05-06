@@ -26,11 +26,6 @@ body {
     color: white;
 }
 
-#trans:hover {
-    transition: 0.75s;
-    color: gray;
-    font-size: 20px;
-}
 
 a {
     color: #9e9e9e;
@@ -76,28 +71,6 @@ a {
     position: relative;
     width: 300px;
     height: 500px;
-}
-
-.image {
-    transition: .5s ease;
-    backface-visibility: hidden;
-}
-
-.overlay {
-    transition: .5 ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.img-container:hover .image {
-    opacity: 0.2;
-}
-
-.img-container:hover .overlay {
-    opacity: 1;
 }
 
 /*FIN REMERAS*/
@@ -211,10 +184,6 @@ a {
     height: 500px;
 }
 
-.team img:hover {
-    filter: saturate(180%);
-} 
-
 #use{
     color: black;
     font-family: 'Times New Roman', Times, serif;
@@ -270,20 +239,6 @@ footer ul li a {
     justify-content: center;
 }
 
-#trans_1:hover {
-    transition: 0.75s;
-    color: rgb(28, 28, 124);
-    font-size: 1.3rem;
-    transform: scale(1);
-}
-
-#trans_2:hover {
-    transition: 0.75s;
-    color: rgb(28, 28, 124);
-    font-size: 1.6rem;
-    transform: scale(1.1);
-}
-
 #pie {
     font-size: 1.5rem;
     color: white;
@@ -301,6 +256,52 @@ footer ul li a {
 }
 
 .box:hover {
+    transform: scale(1.1);
+}
+
+#trans:hover {
+    transition: 0.75s;
+    color: gray;
+    font-size: 20px;
+}
+
+.image {
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.overlay {
+    transition: .5 ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-container:hover .image {
+    opacity: 0.2;
+}
+
+.img-container:hover .overlay {
+    opacity: 1;
+} 
+
+.team img:hover {
+    filter: saturate(180%);
+}  
+
+#trans_1:hover {
+    transition: 0.75s;
+    color: rgb(28, 28, 124);
+    font-size: 1.3rem;
+    transform: scale(1);
+}
+
+#trans_2:hover {
+    transition: 0.75s;
+    color: rgb(28, 28, 124);
+    font-size: 1.6rem;
     transform: scale(1.1);
 }
 
